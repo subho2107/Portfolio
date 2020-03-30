@@ -65,6 +65,16 @@ img.college
 	align-content: center;
 	padding: 20px 10px 50px 10px;
 }
+#circleClip
+{
+	-webkit-clip-path: circle(18px at 50% 50%);
+  	clip-path: circle(18px at 50% 50%)
+}
+#squareClip
+{
+	-webkit-clip-path: inset(7px 7px 7px 7px);
+  	clip-path: inset(7px 7px 7px 7px);
+}
 .btn-primary
 {
 	background-color:#A75486;
